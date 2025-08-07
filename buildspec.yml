@@ -10,7 +10,7 @@ phases:
      - npm install
   build:
     commands:
-    -ng build --configuration production
+    - ng build --configuration production
   artifacts:
     base-directory: dist/angular-app
     files:
