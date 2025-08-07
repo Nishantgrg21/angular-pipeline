@@ -14,7 +14,7 @@ phases:
     commands:
     -ng build --configuration production
 
-  artifacts: 
+  artifacts:
     base-directory: dist/angular-app  
     files:
       - '**/*'
